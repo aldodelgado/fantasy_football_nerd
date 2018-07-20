@@ -104,6 +104,6 @@ class FFNerd
   end
 
   def self.weather_forecasts()
-    ostruct_request('weather', "Weather #{week}")
+    ostruct_request('weather', "Weather")
   end
 end

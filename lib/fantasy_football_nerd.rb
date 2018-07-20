@@ -103,4 +103,7 @@ class FFNerd
     ostruct_request('weekly-projections', 'Projections', extras)
   end
 
+  def self.weather_forecasts()
+    ostruct_request('weather', "Weather #{week}")
+  end
 end
